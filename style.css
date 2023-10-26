@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  color: black;
+  box-sizing: border-box;
+  border: 1px solid #5f9341;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  display: block;
+  font-weight: 550;
+}
+
+input:focus {
+  outline: none;
+  background-color: rgba(194, 218, 244, 0.537);
+}
+
+button {
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #5f9341;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+[data-id='lead-wrapper'] {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+[data-id="delete"] {
+  background-color: white;
+  color: #5f9341;
+  border: 1px solid #5f9341;
+}
+
+[data-id="lead"] {
+  color: #5f9341;
+  text-decoration: underline;
+}
+
+[href] {
+  cursor: pointer;
+}
