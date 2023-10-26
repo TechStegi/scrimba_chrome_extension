@@ -11,6 +11,7 @@ deleteBtn.addEventListener("click", deleteAll);
 
 
 
+
 function createlinkEl() {
     linkEl = document.createElement("a");
     linkEl.setAttribute("data-id", "lead");
@@ -38,6 +39,7 @@ function deleteAll() {
     }
 }
 
+console.log("hello extension");
 
 
 
