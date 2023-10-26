@@ -1,4 +1,11 @@
 
 {
-    
+    "manifest_version": 3,
+    "name": "Save Leads For Sales", 
+    "description": "Save links of sales prospects right in the extension. Open and come back to these persons and saved links as you like.", 
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html", 
+        "default_icon": "sales.jpg"
+    }
 }

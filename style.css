@@ -29,11 +29,11 @@ button {
   border: none;
 }
 
-[data-id='lead-wrapper'] {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+[data-id="lead-wrapper"] {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 [data-id="delete"] {
