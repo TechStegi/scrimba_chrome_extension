@@ -1,0 +1,13 @@
+
+{
+    "manifest_version": 3,
+    "name": "Reading time", 
+    "version": "1.0",
+    "description": "Add the reading time to Chrome Extension documentation articles",
+    "icons": {
+        "16": "images/money.png",
+        "32": "images/money.png",
+        "48": "images/money.png",
+        "128": "images/money.png"
+      }
+}
